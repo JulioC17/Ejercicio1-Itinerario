@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    gap: 10px;
+}
+
+.tituloPrincipal{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 151, 5);
+    color: rgb(75, 75, 75);
+}
+
+.objetivo{
+    background-color: rgb(255, 151, 5);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: rgb(75, 75, 75);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80vh;
+    text-align: center;
+    color:  rgb(234, 136, 0);
+
+}
+
+
+
+.correcto{
+    background-color: rgb(88, 148, 72);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    width: 60vh;
+}
+
+.incorrecto{
+    background-color: rgb(218, 104, 104);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    width: 60vh;
+    visibility:visible;
+}
+
+.incorrecto :hover {
+    cursor: pointer;
+}
+
+.regular{
+    background-color: rgb(255, 247, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    width: 60vh;
+}
+
+.regular :hover {
+    cursor: pointer;
+}
+
+.escondido{
+   display: none;
+}
+
+.visible{
+    display: flex ;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 151, 5);
+    border-radius: 20px;
+    border: 1px solid grey;
+    color: rgb(75, 75, 75);
+}
+
+
